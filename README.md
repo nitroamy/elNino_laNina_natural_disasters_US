@@ -1,2 +1,4 @@
 # elNino_laNina_natural_disasters_US
-Galvanize final data analytics project 
+Galvanize Data Analytics class: final project
+
+more information will be added
