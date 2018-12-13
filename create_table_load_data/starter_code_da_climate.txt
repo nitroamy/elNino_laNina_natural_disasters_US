@@ -10,18 +10,18 @@ CREATE SCHEMA IF NOT EXISTS da_climate;
 
 CREATE TABLE IF NOT EXISTS da_climate.cold_warm_episodes(
 	year DATE,
-	dec_jan_feb DECIMAL,
-	jan_feb_mar DECIMAL,
-	feb_mar_apr DECIMAL,
-	mar_apr_may DECIMAL,
-	apr_may_jun DECIMAL,
-	may_jun_jul DECIMAL,
-	jun_jul_aug DECIMAL,
-	jul_aug_sep DECIMAL,
-	aug_sep_oct DECIMAL,
-	sep_oct_nov DECIMAL,
-	oct_nov_dec DECIMAL,
-	nov_dec_jan DECIMAL);
+	january DECIMAL,
+	february DECIMAL,
+	march DECIMAL,
+	april DECIMAL,
+	may DECIMAL,
+	june DECIMAL,
+	july DECIMAL,
+	august DECIMAL,
+	september DECIMAL,
+	october DECIMAL,
+	november DECIMAL,
+	december DECIMAL);
 
 CREATE TABLE IF NOT EXISTS da_climate.disaster_events_us(
 	name TEXT,
@@ -96,11 +96,16 @@ CREATE TABLE IF NOT EXISTS da_climate.wildfire(
 	acres_burned INT,
 	acres_burned_per_fire DECIMAL);
 
+CREATE TABLE IF NOT EXISTS da_climate.edited_set(
+	date_year_month DATE,
+	oni DECIMAL);
+
 -- Add a copy statement to load the csv data file into table statement
 DELETE FROM da_climate.cold_warm_episodes;
 DELETE FROM da_climate.disaster_time_series;
 DELETE FROM da_climate.disaster_events_us;
 DELETE FROM da_climate.wildfire;
+DELETE FROM da_climate.edited_set;
 
 COPY da_climate.cold_warm_episodes FROM '/Users/amyami/Desktop/DA_Galvanize/climateProject/cold_warm_episodes_1980-2018.csv'
 WITH HEADER DELIMITER ',' CSV;
@@ -112,6 +117,9 @@ COPY da_climate.disaster_time_series FROM '/Users/amyami/Desktop/DA_Galvanize/cl
 WITH HEADER DELIMITER ',' CSV;
 
 COPY da_climate.wildfire FROM '/Users/amyami/Desktop/DA_Galvanize/climateProject/wildfire_2000_2018.csv'
+WITH HEADER DELIMITER ',' CSV;
+
+COPY da_climate.edited_set FROM '/Users/amyami/Desktop/DA_Galvanize/climateProject/edited_set.csv'
 WITH HEADER DELIMITER ',' CSV;
 
 COMMIT;
