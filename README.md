@@ -8,9 +8,9 @@ This is a final project to demonstrate my SQL skills using datasets related to e
 * [CSV files](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/tree/master/create_table_load_data/CSV%20Files)
 
 ### SQL Queries
-* Identifying year/month as el Nino, la Nina, or Neutral: DISTINCT, AVG, CASE, ORDER BY
+* Identifying [year](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/SQL_Queries/identifiying_year_type.txt) and [month](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/SQL_Queries/identifiying_month_type.txt) as el Nino, la Nina, or Neutral: DISTINCT, AVG, CASE, WITH AS, ORDER BY
 * Joining Tables: INNER JOIN, LEFT OUTER JOIN, WHERE
-* SUM, COUNT, LIKE, HAVING, Subqueries, UNION, WITH AS, EXCEPT
+* SUM, COUNT, LIKE, HAVING, Subqueries, UNION, EXCEPT
 
 ### Excel Data Presentation
 * LOOKUP
