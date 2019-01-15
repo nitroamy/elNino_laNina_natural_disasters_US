@@ -27,6 +27,7 @@ SELECT, WITH, ROUND, AVG, GROUP BY, ORDER BY, CASE, SUBQUERIES, COUNT, SUM, WHER
 * [Pivot Table](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/Excel/pivot%20table.xlsx)
 
 ### Visualizations
-
+* [Wildfire occurrence dashboard](https://public.tableau.com/views/WildfireandelNinolaNina/wildfiredashboard?:embed=y&:display_count=yes&publish=yes)
+* [Natural disasters dashboard]()
 ### A note on the data
 I did need to make a few changes to the downloaded dataset in order to properly load
