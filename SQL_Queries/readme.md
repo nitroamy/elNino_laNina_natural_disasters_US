@@ -1,5 +1,5 @@
 ### Note:
-I used 'oni' to identify the type of year or month as el Nino, la Nina, or neutral. 
+I used 'oni' to identify the type of year or month as el Nino, la Nina, or neutral.
 * oni value greater than 0.4 is considered as el Nino
 * oni value between -0.4 and 0.4 is considered as neutral
 * oni value less than -0.4 is considered as la Nina

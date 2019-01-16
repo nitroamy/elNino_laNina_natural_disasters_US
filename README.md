@@ -23,7 +23,7 @@ SELECT, WITH, ROUND, AVG, GROUP BY, ORDER BY, CASE, SUBQUERIES, COUNT, SUM, WHER
 * SQL skills that were not used in this project: LIKE, HAVING, UNION
 
 ### Excel Data Presentation
-* LOOKUP
+* [VLOOKUP](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/Excel/vlookup.xlsx)
 * [Pivot Table](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/Excel/pivot%20table.xlsx)
 
 ### Visualizations
