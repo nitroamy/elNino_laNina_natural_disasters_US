@@ -4,7 +4,7 @@ In order to identifying type of year/month, I used 'oni', which is the abbreviat
 * oni value between -0.4 and 0.4 is considered as neutral
 * oni value less than -0.4 is considered as la Nina
 
-#### CASE statement evaluate oni values to show the type of year/month of each year (if it was in table with year only) or month (if it was in table with both month and year)
+CASE statement evaluate oni values to show the type of year/month of each year (if it was in table with year only) or month (if it was in table with both month and year)
 
 
 ### Joining tables
