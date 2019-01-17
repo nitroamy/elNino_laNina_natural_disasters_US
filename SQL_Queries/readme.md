@@ -9,8 +9,11 @@ CASE statement evaluate oni values to show the type of year/month of each year (
 
 ### Joining tables
 * Type of year and natural disaster time series from 1980 to 2018: To calculate average "oni" for each year, I created a common table expression. Initial trial of using AVG and CASE together gave me error, so instead of using them together within one SELECT query, I created two temporary table handling all the calculation, then simply pulling the calculated values (average oni) for CASE statement and joining tables. For this joining, I used INNER JOIN.
-* Type of month and wildfire time series from 2000 to 2018: I used LEFT OUTER JOIN to join two table together. I eliminated rows with null by using WHERE clause with IS NOT NULL
+* Type of month and wildfire time series from 2000 to 2018: I used LEFT OUTER JOIN to join two table together. I eliminated rows with null by using WHERE clause with IS NOT NULL.
 
 
 ### Counting disasters
-* 
+* Again, I created a CTE to solve the same AVG and CASE statement issue that I had for joining table queries.
+* I created two queries:
+	1. counting_disaster_events_and_total_damage_cost_deaths.sql: using subqueries to count the total disasters happend during each year and to count by different disaster.
+	2. counting_severe_disaster_events_each_year.sql: using subqueries to count the total disasters and the sum of total cost damages and deaths for each year. 

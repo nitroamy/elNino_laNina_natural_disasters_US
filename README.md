@@ -21,10 +21,10 @@ SELECT, DATE_PART, CASE, LEFT OUTER JOIN, WHERE, IS NOT NULL, ORDER BY
 * [Joining year type and disaster time series tables](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/SQL_Queries/joining_monthtype_and_wildfire_tables.sql):
 SELECT, CASE, AVG, ROUND, GROUP BY, WITH, INNER JOIN, GROUP BY, ORDER BY
 * [Counting disaster event](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/SQL_Queries/counting_severe_disaster_events_each_year.sql):
-WITH, SELECT, DISTINCT, AVG, ROUND, GROUP BY, CASE, SUBQUERIES, WHERE
+WITH, SELECT, DISTINCT, AVG, ROUND, GROUP BY, CASE, SUBQUERIES, WHERE, LIKE 
 * [Counting disaster event with the display of total damage cost and deaths](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/SQL_Queries/counting_disaster_events_and_total_damage_cost_deaths.sql):
 SELECT, WITH, ROUND, AVG, GROUP BY, ORDER BY, CASE, SUBQUERIES, COUNT, SUM, WHERE
-* SQL skills that were not used in this project: LIKE, HAVING, UNION
+* SQL skills that were not used in this project: HAVING, UNION
 
 ### Excel Data Presentation
 * [VLOOKUP](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/Excel/vlookup.xlsx)
