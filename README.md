@@ -26,7 +26,12 @@ SELECT, WITH, ROUND, AVG, GROUP BY, ORDER BY, CASE, SUBQUERIES, COUNT, SUM, WHER
 
 ### Excel Data Presentation
 * [VLOOKUP](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/Excel/vlookup.xlsx)
+  * TEXT function to format Begin and End Date from mm/dd/yy to mm/yyyy
+  * VLOOKUP to identify type of month. The formatted Date was used as lookup value and data table from year_month_type worksheet was used as table array.
+  * IF function to evaluate whether Begin Date and End Date have the same month type; I set the return value as yes if statement is true and no if statement is false.
 * [Pivot Table](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/Excel/pivot%20table.xlsx)
+  * First pivot table: disaster count by el Nino, la Nina, neutral.
+  * Second pivot table: disaster count, average and total damages of each year
 
 ### Visualizations
 * [Wildfire occurrence dashboard](https://public.tableau.com/views/WildfireandelNinolaNina/wildfiredashboard?:embed=y&:display_count=yes&publish=yes)
