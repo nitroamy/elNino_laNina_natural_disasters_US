@@ -1,6 +1,8 @@
 # elNino_laNina_natural_disasters_US
 Galvanize Data Analytics class: final project
 
+![alt text](https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/ensocycle/nawinter.gif "El Nino and La Nina")
+
 This is a final project to demonstrate my SQL skills using datasets related to el Nino, la Nina, and natural disasters in US from 1980 to 2017. These datasets are publicly available: [link 1](http://origin.cpc.ncep.noaa.gov/products/analysis_monitoring/ensostuff/ONI_v5.php), [link 2](https://www.ncdc.noaa.gov/billions/events/US/1980-2018), [link 3](https://www.ncdc.noaa.gov/billions/time-series), [link 4](https://www.ncdc.noaa.gov/societal-impacts/wildfires/ytd/0?params[]=acres&params[]=fires).
 
 I selected this topic because I would like to find out if type of year (El Nino/La Nina/Neutral) would make any difference on the occurrence of natural disaster (frequency-wise, damage-wise). Also, I would like to see if there is any disaster patterns.
