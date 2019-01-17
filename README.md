@@ -21,19 +21,14 @@ SELECT, DATE_PART, CASE, LEFT OUTER JOIN, WHERE, IS NOT NULL, ORDER BY
 * [Joining year type and disaster time series tables](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/SQL_Queries/joining_monthtype_and_wildfire_tables.sql):
 SELECT, CASE, AVG, ROUND, GROUP BY, WITH, INNER JOIN, GROUP BY, ORDER BY
 * [Counting disaster event](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/SQL_Queries/counting_severe_disaster_events_each_year.sql):
-WITH, SELECT, DISTINCT, AVG, ROUND, GROUP BY, CASE, SUBQUERIES, WHERE, LIKE 
+WITH, SELECT, DISTINCT, AVG, ROUND, GROUP BY, CASE, SUBQUERIES, WHERE, LIKE
 * [Counting disaster event with the display of total damage cost and deaths](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/SQL_Queries/counting_disaster_events_and_total_damage_cost_deaths.sql):
 SELECT, WITH, ROUND, AVG, GROUP BY, ORDER BY, CASE, SUBQUERIES, COUNT, SUM, WHERE
 * SQL skills that were not used in this project: HAVING, UNION
 
 ### Excel Data Presentation
 * [VLOOKUP](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/Excel/vlookup.xlsx)
-  * TEXT function to format Begin and End Date from mm/dd/yy to mm/yyyy
-  * VLOOKUP to identify type of month. The formatted Date was used as lookup value and data table from year_month_type worksheet was used as table array.
-  * IF function to evaluate whether Begin Date and End Date have the same month type; I set the return value as yes if statement is true and no if statement is false.
 * [Pivot Table](https://github.com/nitroamy/elNino_laNina_natural_disasters_US/blob/master/Excel/pivot%20table.xlsx)
-  * First pivot table: disaster count by el Nino, la Nina, neutral.
-  * Second pivot table: disaster count, average and total damages of each year
 
 ### Visualizations
 * [Wildfire occurrence dashboard](https://public.tableau.com/views/WildfireandelNinolaNina/wildfiredashboard?:embed=y&:display_count=yes&publish=yes)
