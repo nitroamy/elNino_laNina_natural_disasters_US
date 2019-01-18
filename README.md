@@ -1,4 +1,4 @@
-# elNino_laNina_natural_disasters_US
+# el Nino and la Nina: natural disasters occurrence in the US
 Galvanize Data Analytics class: final project
 
 ![alt text](http://www.stormfax.com/ElNinoWeb.png "El Nino and La Nina")
