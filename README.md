@@ -32,6 +32,6 @@ SELECT, WITH, ROUND, AVG, GROUP BY, ORDER BY, CASE, SUBQUERIES, COUNT, SUM, WHER
 
 ### Visualizations
 * [Wildfire occurrence dashboard](https://public.tableau.com/views/WildfireandelNinolaNina/wildfiredashboard?:embed=y&:display_count=yes&publish=yes)
-* [Natural disasters dashboard]()
+* [Natural disasters dashboard](https://public.tableau.com/views/Naturaldisastersdashboard/Naturaldisasterdashboard?:embed=y&:display_count=yes)
 ### A note on the data
 I did need to make a few changes to the downloaded dataset in order to properly load
